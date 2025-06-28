@@ -12,9 +12,34 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1>
-      Help now is a website where you can help people around the world by
-      donation.
-    </h1>
+    <main class="container mx-auto">
+      <!-- navbar part start -->
+      <nav class="flex justify-between p-6 border-b-2 border-[#175676]">
+        <button class="btn btn-xl bg-[#D62839] text-white">Blog</button>
+        <div class="flex items-center gap-5">
+          <img src="assets/logo.png" alt="" />
+          <p class="flex text-3xl font-extrabold">
+            <span class="text-[#175676]">Help</span> Now
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <img src="assets/coin.png" alt="" />
+          <p class="flex text-2xl font-medium">
+            <span class="font-bold mr-2">5500</span> BDT
+          </p>
+        </div>
+      </nav>
+      <!-- navbar part end -->
+
+      <!-- buttons section start -->
+      <section class="my-5">
+        <div class="flex gap-20 justify-center">
+          <button class="btn btn-xl bg-[#D62839] text-white">Donation</button>
+          <button class="btn btn-xl bg-[#D62839] text-white">History</button>
+        </div>
+      </section>
+      <!-- buttons section end -->
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
