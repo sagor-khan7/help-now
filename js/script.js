@@ -1,1 +1,1 @@
-console.log("coming from script js");
+// redirect to blog page after clicking the blog button

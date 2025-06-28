@@ -15,7 +15,12 @@
     <main class="container mx-auto">
       <!-- navbar part start -->
       <nav class="flex justify-between p-6 border-b-2 border-[#175676]">
-        <button class="btn btn-xl bg-[#D62839] text-white">Blog</button>
+        <button
+          onclick="redirectToBlog()"
+          class="btn btn-xl bg-[#D62839] text-white"
+        >
+          Blog
+        </button>
         <div class="flex items-center gap-5">
           <img src="assets/logo.png" alt="" />
           <p class="flex text-3xl font-extrabold">
@@ -51,7 +56,9 @@
           </div>
           <div class="w-1/2 space-y-7">
             <!-- donation logo and amount -->
-            <div class="flex gap-2 items-center">
+            <div
+              class="flex gap-2 items-center py-2 px-3 bg-[#b4e0f6] text-black font-semibold rounded-md w-fit"
+            >
               <img src="assets/coin.png" alt="" />
               <p><span>500</span> BDT</p>
             </div>
@@ -86,7 +93,9 @@
           </div>
           <div class="w-1/2 space-y-7">
             <!-- donation logo and amount -->
-            <div class="flex gap-2 items-center">
+            <div
+              class="flex gap-2 items-center py-2 px-3 bg-[#b4e0f6] text-black font-semibold rounded-md w-fit"
+            >
               <img src="assets/coin.png" alt="" />
               <p><span>500</span> BDT</p>
             </div>
@@ -123,7 +132,9 @@
           </div>
           <div class="w-1/2 space-y-7">
             <!-- donation logo and amount -->
-            <div class="flex gap-2 items-center">
+            <div
+              class="flex gap-2 items-center py-2 px-3 bg-[#b4e0f6] text-black font-semibold rounded-md w-fit"
+            >
               <img src="assets/coin.png" alt="" />
               <p><span>500</span> BDT</p>
             </div>
@@ -167,5 +178,6 @@
       <!-- footer section end -->
     </main>
     <script src="js/script.js"></script>
+    <script src="js/blog.js"></script>
   </body>
 </html>

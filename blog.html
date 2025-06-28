@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="container mx-auto">
+      <!-- navbar part start -->
+      <nav class="flex justify-between p-6 border-b-2 border-[#175676]">
+        <button
+          onclick="redirectToHome()"
+          class="btn btn-xl bg-[#D62839] text-white"
+        >
+          Home
+        </button>
+        <div class="flex items-center gap-5">
+          <img src="assets/logo.png" alt="" />
+          <p class="flex text-3xl font-extrabold">
+            <span class="text-[#175676]">Help</span> Now
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <img src="assets/coin.png" alt="" />
+          <p class="flex text-2xl font-medium">
+            <span class="font-bold mr-2">5500</span> BDT
+          </p>
+        </div>
+      </nav>
+      <!-- navbar part end -->
+
+      <!-- buttons section start -->
+      <section class="my-14">
+        <div class="flex gap-20 justify-center">
+          <button class="btn btn-xl bg-[#175676] text-white">Donation</button>
+          <button class="btn btn-xl bg-[#D62839] text-white">History</button>
+        </div>
+      </section>
+      <!-- buttons section end -->
+
+      <!-- accordion section start -->
+      <section class="space-y-10">
+        <!-- first accordion -->
+        <div class="collapse collapse-plus border border-[#175676] rounded-md">
+          <input type="checkbox" />
+          <div class="collapse-title text-xl font-medium">
+            Donate for Flood at Noakhali, Bangladesh
+          </div>
+          <div class="collapse-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <!-- second accordion -->
+        <div class="collapse collapse-plus border border-[#175676] rounded-md">
+          <input type="checkbox" />
+          <div class="collapse-title text-xl font-medium">
+            Help Children in Dhaka
+          </div>
+          <div class="collapse-content">
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+        </div>
+
+        <!-- third accordion -->
+        <div class="collapse collapse-plus border border-[#175676] rounded-md">
+          <input type="checkbox" />
+          <div class="collapse-title text-xl font-medium">
+            Support Education in Rural Areas
+          </div>
+          <div class="collapse-content">
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- accordion section end -->
+    </main>
+
+    <script src="js/blog.js"></script>
+  </body>
+</html>
